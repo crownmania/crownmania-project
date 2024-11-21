@@ -1,0 +1,373 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x182Deaee748084854D6708A43957964a3D3F1772",
+    "txHash": "0xfcc9de7c624e9b5633895b6d3213ac70f4c714d1c072fa31aeca3f75b34e9327"
+  },
+  "proxies": [
+    {
+      "address": "0x63DCE102429F6319C57DdD37455c2311F4E8F7F3",
+      "txHash": "0x37d11a4fb17595e4e8cf585b5b13ef102e5b70c7ee778a407ea4df4000a93ed4",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "3162c67a42fb406657064c00cbbf64dc56bcdd1ab429c07a908636782260bfab": {
+      "address": "0xDE77cbD753AE9bee7C5e4799B5fC1A7133D09A32",
+      "txHash": "0x2e80429d8754815444e2fab25a907c68b54c7cd39be8f534196db31066c023af",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:25"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:28"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_owners",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:31"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:34"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_tokenApprovals",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_operatorApprovals",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:40"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:465"
+          },
+          {
+            "contract": "ERC721EnumerableUpgradeable",
+            "label": "_ownedTokens",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeable.sol:22"
+          },
+          {
+            "contract": "ERC721EnumerableUpgradeable",
+            "label": "_ownedTokensIndex",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeable.sol:25"
+          },
+          {
+            "contract": "ERC721EnumerableUpgradeable",
+            "label": "_allTokens",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeable.sol:28"
+          },
+          {
+            "contract": "ERC721EnumerableUpgradeable",
+            "label": "_allTokensIndex",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC721EnumerableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)46_storage",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721EnumerableUpgradeable.sol:175"
+          },
+          {
+            "contract": "ERC721URIStorageUpgradeable",
+            "label": "_tokenURIs",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721URIStorageUpgradeable.sol:21"
+          },
+          {
+            "contract": "ERC721URIStorageUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721URIStorageUpgradeable.sol:74"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:116"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)34_storage)",
+            "src": "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:61"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:259"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "royaltyPercentage",
+            "type": "t_uint256",
+            "src": "contracts/crownmania.sol:24"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "royaltyRecipient",
+            "type": "t_address_payable",
+            "src": "contracts/crownmania.sol:25"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "brandDescription",
+            "type": "t_string_storage",
+            "src": "contracts/crownmania.sol:26"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "collectibleCount",
+            "type": "t_uint256",
+            "src": "contracts/crownmania.sol:27"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "collections",
+            "type": "t_mapping(t_uint256,t_struct(Collection)3112_storage)",
+            "src": "contracts/crownmania.sol:44"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "collectibleMetadata",
+            "type": "t_mapping(t_uint256,t_struct(CollectibleMetadata)3122_storage)",
+            "src": "contracts/crownmania.sol:45"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "collectibleToCollection",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/crownmania.sol:46"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "listingPrices",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/crownmania.sol:47"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "stakedTokens",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "contracts/crownmania.sol:48"
+          },
+          {
+            "contract": "Crownmania",
+            "label": "collectionCount",
+            "type": "t_uint256",
+            "src": "contracts/crownmania.sol:49"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_uint256,t_struct(Collection)3112_storage)": {
+            "label": "mapping(uint256 => struct Crownmania.Collection)"
+          },
+          "t_struct(Collection)3112_storage": {
+            "label": "struct Crownmania.Collection",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "description",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "totalCollectibles",
+                "type": "t_uint256"
+              },
+              {
+                "label": "specialEditionCounts",
+                "type": "t_mapping(t_enum(SpecialEditionType)3098,t_uint256)"
+              },
+              {
+                "label": "exists",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_mapping(t_enum(SpecialEditionType)3098,t_uint256)": {
+            "label": "mapping(enum Crownmania.SpecialEditionType => uint256)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_enum(SpecialEditionType)3098": {
+            "label": "enum Crownmania.SpecialEditionType",
+            "members": [
+              "Standard",
+              "Gold",
+              "Silver",
+              "Pink",
+              "Purple"
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(CollectibleMetadata)3122_storage)": {
+            "label": "mapping(uint256 => struct Crownmania.CollectibleMetadata)"
+          },
+          "t_struct(CollectibleMetadata)3122_storage": {
+            "label": "struct Crownmania.CollectibleMetadata",
+            "members": [
+              {
+                "label": "name",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "description",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "mediaLink",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "editionType",
+                "type": "t_enum(SpecialEditionType)3098"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)34_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)34_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_uint256,t_string_storage)": {
+            "label": "mapping(uint256 => string)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_array(t_uint256)46_storage": {
+            "label": "uint256[46]"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
